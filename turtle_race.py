@@ -14,6 +14,10 @@ X = -230
 Y = -100
 colors = ["red", "orange", "yellow", "blue", "violet"]
 
+if bet not in colors:
+    print("Invalid input! Please choose a turtle color from the available options.")
+    exit()
+
 turtles = []
 for i in range(0, 5):
     t = Turtle(shape="turtle")
